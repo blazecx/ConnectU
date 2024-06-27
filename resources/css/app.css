@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        background-color: #373737;
+    }
+
+    @font-face {
+        font-family: "Bellota";
+        src: url(../fonts/Bellota-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: "Junegull";
+        src: url(../fonts/JUNEGULL-RG.TTF) ;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 500;
+        src: url(../fonts/MONTSERRAT-MEDIUM.TTF) format("TTF");
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 400;
+        src: url(../fonts/MONTSERRAT-REGULAR.TTF) format("TTF");
+    }
+}
+
